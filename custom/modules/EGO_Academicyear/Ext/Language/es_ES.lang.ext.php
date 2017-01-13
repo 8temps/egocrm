@@ -1,0 +1,11 @@
+<?php 
+ //WARNING: The contents of this file are auto-generated
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_EGO_ACADEMICYEAR_EGO_COURSES_FROM_EGO_COURSES_TITLE'] = 'Courses';
+$mod_strings['LBL_EGO_ACADEMICYEAR_EGO_COURSESRATE_FROM_EGO_COURSESRATE_TITLE'] = 'Courses rate';
+$mod_strings['LBL_EGO_ACADEMICYEAR_EGO_COURSESPRICE_FROM_EGO_COURSESPRICE_TITLE'] = 'Academic general price';
+$mod_strings['LBL_EGO_ACADEMICYEAR_EGO_HOLIDAYS_FROM_EGO_HOLIDAYS_TITLE'] = 'Holidays';
+
+?>
