@@ -1,1 +1,0 @@
-SUGAR.language.setLanguage('EGO', null);

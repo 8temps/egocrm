@@ -1,5 +1,5 @@
 <?php
-// created: 2017-01-11 14:31:44
+// created: 2017-01-17 10:07:02
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -53,5 +53,6 @@ $mod_strings = array (
   'LBL_PRODUCTS_PURCHASES' => 'Purchases',
   'LBL_AOS_QUOTE_NAME' => 'Quote',
   'LBL_ACCOUNT_NAME' => 'Account',
+  'LBL_PAK_PROJECTKANBAN_AOS_PRODUCTS_FROM_PAK_PROJECTKANBAN_TITLE' => 'Project Kanban',
   'LBL_PROJECT_AOS_PRODUCTS_1_FROM_PROJECT_TITLE' => 'Projects',
 );

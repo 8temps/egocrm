@@ -1641,6 +1641,16 @@
       'id' => 'Contactsfacebook_c',
       'custom_module' => 'Contacts',
     ),
+    'pak_projectkanban_contacts' => 
+    array (
+      'name' => 'pak_projectkanban_contacts',
+      'type' => 'link',
+      'relationship' => 'pak_projectkanban_contacts',
+      'source' => 'non-db',
+      'module' => 'PAK_ProjectKanban',
+      'bean_name' => 'PAK_ProjectKanban',
+      'vname' => 'LBL_PAK_PROJECTKANBAN_CONTACTS_FROM_PAK_PROJECTKANBAN_TITLE',
+    ),
     'jjwg_maps_lng_c' => 
     array (
       'inline_edit' => 1,

@@ -1,5 +1,5 @@
 <?php
-// created: 2017-01-11 14:31:32
+// created: 2017-01-17 10:07:23
 $sugar_config = array (
   'DHA_OpenOffice_HOME' => '',
   'DHA_OpenOffice_cde' => '',
@@ -334,7 +334,8 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 11,
+  'js_lang_version' => 12,
+  'kanboard_url' => 'http://127.0.0.1/circosphere.ccproduction.ch/pak/?',
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -407,7 +408,7 @@ $sugar_config = array (
       3 => 'Administration',
       4 => 'Sync',
     ),
-    'default_limit' => 20000,
+    'default_limit' => 1000,
   ),
   'rss_cache_time' => '10800',
   'save_query' => 'all',

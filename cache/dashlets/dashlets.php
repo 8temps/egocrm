@@ -1,5 +1,5 @@
 <?php
-// created: 2017-01-11 14:31:40
+// created: 2017-01-17 10:07:25
 $dashletsFiles = array (
   'EGO_ThemesDashlet' => 
   array (
@@ -258,6 +258,13 @@ $dashletsFiles = array (
     'meta' => 'modules/Documents/Dashlets/MyDocumentsDashlet/MyDocumentsDashlet.meta.php',
     'module' => 'Documents',
   ),
+  'PAK_ProjectKanbanDashlet' => 
+  array (
+    'file' => 'modules/PAK_ProjectKanban/Dashlets/PAK_ProjectKanbanDashlet/PAK_ProjectKanbanDashlet.php',
+    'class' => 'PAK_ProjectKanbanDashlet',
+    'meta' => 'modules/PAK_ProjectKanban/Dashlets/PAK_ProjectKanbanDashlet/PAK_ProjectKanbanDashlet.meta.php',
+    'module' => 'PAK_ProjectKanban',
+  ),
   'RSSDashlet' => 
   array (
     'file' => 'modules/Home/Dashlets/RSSDashlet/RSSDashlet.php',
@@ -359,6 +366,13 @@ $dashletsFiles = array (
     'class' => 'EGO_CoursespriceDashlet',
     'meta' => 'modules/EGO_Coursesprice/Dashlets/EGO_CoursespriceDashlet/EGO_CoursespriceDashlet.meta.php',
     'module' => 'EGO_Coursesprice',
+  ),
+  'PAK_DoodleDashlet' => 
+  array (
+    'file' => 'modules/PAK_Doodle/Dashlets/PAK_DoodleDashlet/PAK_DoodleDashlet.php',
+    'class' => 'PAK_DoodleDashlet',
+    'meta' => 'modules/PAK_Doodle/Dashlets/PAK_DoodleDashlet/PAK_DoodleDashlet.meta.php',
+    'module' => 'PAK_Doodle',
   ),
   'jjwg_MarkersDashlet' => 
   array (

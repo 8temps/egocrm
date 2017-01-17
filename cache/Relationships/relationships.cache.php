@@ -7804,6 +7804,94 @@
     'join_key_lhs' => 'securitygroup_id',
     'join_key_rhs' => 'user_id',
   ),
+  'pak_projectkanban_aos_products' => 
+  array (
+    'name' => 'pak_projectkanban_aos_products',
+    'true_relationship_type' => 'many-to-many',
+    'relationships' => 
+    array (
+      'pak_projectkanban_aos_products' => 
+      array (
+        'lhs_module' => 'PAK_ProjectKanban',
+        'lhs_table' => 'pak_projectkanban',
+        'lhs_key' => 'id',
+        'rhs_module' => 'AOS_Products',
+        'rhs_table' => 'aos_products',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'pak_projectkanban_aos_products_c',
+        'join_key_lhs' => 'pak_projectkanban_aos_productspak_projectkanban_ida',
+        'join_key_rhs' => 'pak_projectkanban_aos_productsaos_products_idb',
+      ),
+    ),
+    'table' => 'pak_projectkanban_aos_products_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'pak_projectkanban_aos_productspak_projectkanban_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'pak_projectkanban_aos_productsaos_products_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'pak_projectkanban_aos_productsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'pak_projectkanban_aos_products_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'pak_projectkanban_aos_productspak_projectkanban_ida',
+          1 => 'pak_projectkanban_aos_productsaos_products_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'PAK_ProjectKanban',
+    'lhs_table' => 'pak_projectkanban',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AOS_Products',
+    'rhs_table' => 'aos_products',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'pak_projectkanban_aos_products_c',
+    'join_key_lhs' => 'pak_projectkanban_aos_productspak_projectkanban_ida',
+    'join_key_rhs' => 'pak_projectkanban_aos_productsaos_products_idb',
+  ),
   'ego_academicyear_ego_courses' => 
   array (
     'name' => 'ego_academicyear_ego_courses',
@@ -8269,6 +8357,190 @@
     'join_table' => 'project_aos_products_1_c',
     'join_key_lhs' => 'project_aos_products_1project_ida',
     'join_key_rhs' => 'project_aos_products_1aos_products_idb',
+  ),
+  'pak_projectkanban_contacts' => 
+  array (
+    'name' => 'pak_projectkanban_contacts',
+    'true_relationship_type' => 'many-to-many',
+    'relationships' => 
+    array (
+      'pak_projectkanban_contacts' => 
+      array (
+        'lhs_module' => 'PAK_ProjectKanban',
+        'lhs_table' => 'pak_projectkanban',
+        'lhs_key' => 'id',
+        'rhs_module' => 'Contacts',
+        'rhs_table' => 'contacts',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'pak_projectkanban_contacts_c',
+        'join_key_lhs' => 'pak_projectkanban_contactspak_projectkanban_ida',
+        'join_key_rhs' => 'pak_projectkanban_contactscontacts_idb',
+      ),
+    ),
+    'table' => 'pak_projectkanban_contacts_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'pak_projectkanban_contactspak_projectkanban_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'pak_projectkanban_contactscontacts_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'pak_projectkanban_contactsspk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'pak_projectkanban_contacts_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'pak_projectkanban_contactspak_projectkanban_ida',
+          1 => 'pak_projectkanban_contactscontacts_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'PAK_ProjectKanban',
+    'lhs_table' => 'pak_projectkanban',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Contacts',
+    'rhs_table' => 'contacts',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'pak_projectkanban_contacts_c',
+    'join_key_lhs' => 'pak_projectkanban_contactspak_projectkanban_ida',
+    'join_key_rhs' => 'pak_projectkanban_contactscontacts_idb',
+  ),
+  'pak_projectkanban_pak_doodle' => 
+  array (
+    'name' => 'pak_projectkanban_pak_doodle',
+    'true_relationship_type' => 'one-to-many',
+    'relationships' => 
+    array (
+      'pak_projectkanban_pak_doodle' => 
+      array (
+        'lhs_module' => 'PAK_ProjectKanban',
+        'lhs_table' => 'pak_projectkanban',
+        'lhs_key' => 'id',
+        'rhs_module' => 'PAK_Doodle',
+        'rhs_table' => 'pak_doodle',
+        'rhs_key' => 'id',
+        'relationship_type' => 'many-to-many',
+        'join_table' => 'pak_projectkanban_pak_doodle_c',
+        'join_key_lhs' => 'pak_projectkanban_pak_doodlepak_projectkanban_ida',
+        'join_key_rhs' => 'pak_projectkanban_pak_doodlepak_doodle_idb',
+      ),
+    ),
+    'table' => 'pak_projectkanban_pak_doodle_c',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      1 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      2 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => true,
+      ),
+      3 => 
+      array (
+        'name' => 'pak_projectkanban_pak_doodlepak_projectkanban_ida',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+      4 => 
+      array (
+        'name' => 'pak_projectkanban_pak_doodlepak_doodle_idb',
+        'type' => 'varchar',
+        'len' => 36,
+      ),
+    ),
+    'indices' => 
+    array (
+      0 => 
+      array (
+        'name' => 'pak_projectkanban_pak_doodlespk',
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'id',
+        ),
+      ),
+      1 => 
+      array (
+        'name' => 'pak_projectkanban_pak_doodle_ida1',
+        'type' => 'index',
+        'fields' => 
+        array (
+          0 => 'pak_projectkanban_pak_doodlepak_projectkanban_ida',
+        ),
+      ),
+      2 => 
+      array (
+        'name' => 'pak_projectkanban_pak_doodle_alt',
+        'type' => 'alternate_key',
+        'fields' => 
+        array (
+          0 => 'pak_projectkanban_pak_doodlepak_doodle_idb',
+        ),
+      ),
+    ),
+    'lhs_module' => 'PAK_ProjectKanban',
+    'lhs_table' => 'pak_projectkanban',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PAK_Doodle',
+    'rhs_table' => 'pak_doodle',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'pak_projectkanban_pak_doodle_c',
+    'join_key_lhs' => 'pak_projectkanban_pak_doodlepak_projectkanban_ida',
+    'join_key_rhs' => 'pak_projectkanban_pak_doodlepak_doodle_idb',
   ),
   'ego_academicyear_ego_coursesprice' => 
   array (
@@ -14799,6 +15071,212 @@
     'join_key_rhs' => 'record_id',
     'relationship_role_column' => 'module',
     'relationship_role_column_value' => 'EGO_Academicyear',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'pak_projectkanban_modified_user' => 
+  array (
+    'name' => 'pak_projectkanban_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PAK_ProjectKanban',
+    'rhs_table' => 'pak_projectkanban',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pak_projectkanban_created_by' => 
+  array (
+    'name' => 'pak_projectkanban_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PAK_ProjectKanban',
+    'rhs_table' => 'pak_projectkanban',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pak_projectkanban_assigned_user' => 
+  array (
+    'name' => 'pak_projectkanban_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PAK_ProjectKanban',
+    'rhs_table' => 'pak_projectkanban',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_pak_projectkanban' => 
+  array (
+    'name' => 'securitygroups_pak_projectkanban',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PAK_ProjectKanban',
+    'rhs_table' => 'pak_projectkanban',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'PAK_ProjectKanban',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'char',
+        'len' => '36',
+        'required' => true,
+        'default' => '',
+      ),
+      1 => 
+      array (
+        'name' => 'securitygroup_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      2 => 
+      array (
+        'name' => 'record_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      3 => 
+      array (
+        'name' => 'module',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      4 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      5 => 
+      array (
+        'name' => 'modified_user_id',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      6 => 
+      array (
+        'name' => 'created_by',
+        'type' => 'char',
+        'len' => '36',
+      ),
+      7 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'required' => true,
+        'default' => '0',
+      ),
+    ),
+  ),
+  'pak_doodle_modified_user' => 
+  array (
+    'name' => 'pak_doodle_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PAK_Doodle',
+    'rhs_table' => 'pak_doodle',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pak_doodle_created_by' => 
+  array (
+    'name' => 'pak_doodle_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PAK_Doodle',
+    'rhs_table' => 'pak_doodle',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'pak_doodle_assigned_user' => 
+  array (
+    'name' => 'pak_doodle_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PAK_Doodle',
+    'rhs_table' => 'pak_doodle',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'securitygroups_pak_doodle' => 
+  array (
+    'name' => 'securitygroups_pak_doodle',
+    'lhs_module' => 'SecurityGroups',
+    'lhs_table' => 'securitygroups',
+    'lhs_key' => 'id',
+    'rhs_module' => 'PAK_Doodle',
+    'rhs_table' => 'pak_doodle',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'securitygroups_records',
+    'join_key_lhs' => 'securitygroup_id',
+    'join_key_rhs' => 'record_id',
+    'relationship_role_column' => 'module',
+    'relationship_role_column_value' => 'PAK_Doodle',
     'fields' => 
     array (
       0 => 

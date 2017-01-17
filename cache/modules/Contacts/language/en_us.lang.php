@@ -1,5 +1,5 @@
 <?php
-// created: 2017-01-11 14:31:44
+// created: 2017-01-17 10:07:00
 $mod_strings = array (
   'LBL_ID' => 'ID:',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -229,6 +229,7 @@ $mod_strings = array (
   'LBL_TWITTER' => 'twitter',
   'LBL_EDITVIEW_PANEL1' => 'New Panel 1',
   'LBL_WWW' => 'www',
+  'LBL_PAK_PROJECTKANBAN_CONTACTS_FROM_PAK_PROJECTKANBAN_TITLE' => 'Project Kanban',
   'LBL_EGO_COURSESPRICE_CONTACTS_FROM_EGO_COURSESPRICE_TITLE' => 'Academic general price',
   'LBL_EGO_COURSES_CONTACTS_FROM_EGO_COURSES_TITLE' => 'Courses',
 );

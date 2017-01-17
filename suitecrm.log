@@ -20084,3 +20084,15 @@ Don 12 Jan 2017 12:30:00 CET [16324][1][FATAL] project_resource for projects_con
 
 Don 12 Jan 2017 12:30:00 CET [16324][1][FATAL] am_projecttemplates_resources for am_projecttemplates_contacts_resources failed to load
 
+Sun Jan 15 17:57:05 2017 [23551][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Sun Jan 15 17:57:05 2017 [23551][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/Suite7/modules is not a file or a dir.
+Sun Jan 15 18:55:12 2017 [23551][1][FATAL] Failed to load original or custom subpanel data for eapm in modules//metadata/subpanels/.php
+Sun Jan 15 18:55:22 2017 [23551][1][FATAL] Failed to load original or custom subpanel data for eapm in modules//metadata/subpanels/.php
+Die 17 Jan 2017 09:31:05 CET [8114][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Die 17 Jan 2017 09:31:05 CET [8114][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/Suite7/modules is not a file or a dir.
+Die 17 Jan 2017 09:41:08 CET [8116][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Die 17 Jan 2017 09:41:08 CET [8116][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/Suite7/modules is not a file or a dir.
+Die 17 Jan 2017 09:58:55 CET [8113][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Die 17 Jan 2017 09:58:55 CET [8113][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/Suite7/modules is not a file or a dir.
+Die 17 Jan 2017 10:07:05 CET [8918][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/SuiteP/modules is not a file or a dir.
+Die 17 Jan 2017 10:07:05 CET [8918][1][FATAL] ERROR: rmdir_recursive(): argument cache/themes/Suite7/modules is not a file or a dir.

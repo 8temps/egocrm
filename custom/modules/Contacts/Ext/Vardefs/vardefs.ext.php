@@ -101,6 +101,18 @@ $dictionary['Contact']['fields']['facebook_c']['labelValue']='facebook';
 
  
 
+// created: 2017-01-16 17:49:53
+$dictionary["Contact"]["fields"]["pak_projectkanban_contacts"] = array (
+  'name' => 'pak_projectkanban_contacts',
+  'type' => 'link',
+  'relationship' => 'pak_projectkanban_contacts',
+  'source' => 'non-db',
+  'module' => 'PAK_ProjectKanban',
+  'bean_name' => 'PAK_ProjectKanban',
+  'vname' => 'LBL_PAK_PROJECTKANBAN_CONTACTS_FROM_PAK_PROJECTKANBAN_TITLE',
+);
+
+
  // created: 2017-01-02 20:45:44
 $dictionary['Contact']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
 

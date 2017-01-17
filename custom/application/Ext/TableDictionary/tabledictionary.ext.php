@@ -3,6 +3,11 @@
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/pak_projectkanban_aos_productsMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/ego_academicyear_ego_coursesMetaData.php');
 
 
@@ -24,6 +29,16 @@ include('custom/metadata/project_fp_events_1MetaData.php');
  
  //WARNING: The contents of this file are auto-generated
 include('custom/metadata/project_aos_products_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/pak_projectkanban_contactsMetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/pak_projectkanban_pak_doodleMetaData.php');
 
 
  

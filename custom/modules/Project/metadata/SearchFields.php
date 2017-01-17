@@ -1,5 +1,5 @@
 <?php
-// created: 2016-12-14 19:06:00
+// created: 2017-01-15 17:40:51
 $searchFields['Project'] = array (
   'name' => 
   array (
@@ -61,42 +61,6 @@ $searchFields['Project'] = array (
     'is_date_field' => true,
   ),
   'end_range_date_modified' => 
-  array (
-    'query_type' => 'default',
-    'enable_range_search' => true,
-    'is_date_field' => true,
-  ),
-  'range_estimated_start_date' => 
-  array (
-    'query_type' => 'default',
-    'enable_range_search' => true,
-    'is_date_field' => true,
-  ),
-  'start_range_estimated_start_date' => 
-  array (
-    'query_type' => 'default',
-    'enable_range_search' => true,
-    'is_date_field' => true,
-  ),
-  'end_range_estimated_start_date' => 
-  array (
-    'query_type' => 'default',
-    'enable_range_search' => true,
-    'is_date_field' => true,
-  ),
-  'range_estimated_end_date' => 
-  array (
-    'query_type' => 'default',
-    'enable_range_search' => true,
-    'is_date_field' => true,
-  ),
-  'start_range_estimated_end_date' => 
-  array (
-    'query_type' => 'default',
-    'enable_range_search' => true,
-    'is_date_field' => true,
-  ),
-  'end_range_estimated_end_date' => 
   array (
     'query_type' => 'default',
     'enable_range_search' => true,
